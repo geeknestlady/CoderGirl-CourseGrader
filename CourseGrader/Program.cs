@@ -43,7 +43,7 @@ namespace CourseGrader
             }
             for (int i = 0; i < testScores.Length; i++)
             {
-                if (testScores == null && testScores[i] <= 50)
+                if (testScores[i] < 50)
                     pass = "fail";                           
             }
             return pass;
